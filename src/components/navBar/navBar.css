@@ -1,0 +1,11 @@
+li {
+  list-style-type: none;
+  margin-top: 20px;
+}
+a {
+  color: black;
+}
+.list {
+  width: 120px;
+  height: 100vh;
+}

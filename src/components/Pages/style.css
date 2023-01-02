@@ -1,0 +1,21 @@
+.container {
+  width: 80vw;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.disabled {
+  display: none;
+}
+
+.tableContainer {
+  display: flex;
+  width: 100%;
+}
+
+.space {
+  display: flex;
+  justify-content: space-evenly;
+}
