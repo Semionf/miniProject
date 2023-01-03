@@ -10,13 +10,13 @@ export const ContactUs = () => {
   const submitMessage = async () => {
     console.log(firstName + " " + lastName + " " + email + " " + message);
     await postMessage({
-      fullName: firstName + " " + lastName,
-      email: email,
-      message: message,
+      FullName: firstName + " " + lastName,
+      User_Message: message,
+      Email: email,
     });
   };
   return (
-    <form className="container">
+    <>
       <div className="form-group">
         <label>First name</label>
         <input
@@ -80,6 +80,6 @@ export const ContactUs = () => {
       >
         Submit
       </button>
-    </form>
+    </>
   );
 };

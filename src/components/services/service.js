@@ -11,7 +11,7 @@ export const getProducts = async () => {
 
 export const postMessage = async (UserMessage) => {
   console.log(UserMessage);
-  await axios.post(`${URLServer}ADD/${UserMessage}`);
+  await axios.post("http://localhost:7126/api/userMessage/", UserMessage);
 };
 
 export const deleteProduct = async (ID) => {
